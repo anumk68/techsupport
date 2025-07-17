@@ -1,0 +1,246 @@
+@extends('frontend.include.app')
+@section('content')
+
+    <div class="page-banner-wrap text-center bg-cover"
+        style="background-image: url('assets/img/Smartphones_tablets_banner.jpg')">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-md-6">
+                    <div class="page-heading text-white about_main_banner">
+                        <h1>Smartphone and Tablet Technical Support
+                        </h1>
+                    </div>
+                    <nav>
+                        <ol class="breadcrumb">
+                            <li class="breadcrumb-item"><a href="index.html">Home</a></li>
+                        </ol>
+                    </nav>
+                </div>
+
+                <div class="col-12 col-xxl-6 col-lg-5 col-sm-12">
+                    <div class="form_box home_page_form">
+                        <div class="service-contact-form">
+                            <div class="contact-form">
+                                <h2>Fill The Form Now</h2>
+
+                                <form action="{{ route('form.submit') }}" class="row" id="contact-form"><grammarly-extension
+                                        data-grammarly-shadow-root="true"
+                                        style="position: absolute; top: 0px; left: 0px; pointer-events: none;"
+                                        class="dnXmp"></grammarly-extension><grammarly-extension
+                                        data-grammarly-shadow-root="true"
+                                        style="position: absolute; top: 0px; left: 0px; pointer-events: none;"
+                                        class="dnXmp"></grammarly-extension>
+                                    @csrf
+                                    <input type="hidden" name="form_id" value="computer_tones_up1">
+                                    <div class="col-md-6 col-12">
+                                        <div class="form_a">
+                                            <label for="name">Name</label>
+                                            <input class="formmm" type="text" name="name" id="fname"
+                                                placeholder="Enter Name" tabindex="0">
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6 col-12">
+                                        <div class="form_a">
+                                            <label for="email">Enter Email Address</label>
+                                            <input class="formmm" type="email" name="email" id="email"
+                                                placeholder="Enter Email Address" tabindex="0">
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6 col-12">
+                                        <div class="form_a">
+                                            <label for=" Number">Enter Number</label>
+                                            <input class="formmm" type="text" name="phone" id="phone"
+                                                placeholder="Enter Number" tabindex="0">
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6 col-12">
+                                        <div class="form_a">
+                                            <label for=" Subject">Enter Subject</label>
+                                            <input class="formmm" type="text" name="subject" id="subject"
+                                                placeholder="Enter Subject" tabindex="0">
+                                        </div>
+                                    </div>
+
+                                    <div class="col-md-6 col-12">
+                                        <div class="form_a">
+                                            <label for=" Services">Tech Services </label>
+                                            <select class="custom-select select_form" name="tech_services" tabindex="0"
+                                                required>
+                                                <option value="Virus &amp; Malware Removal">Virus &amp; Malware Removal
+                                                </option>
+                                                <option value="Computer Tune-Ups">Computer Tune-Ups</option>
+                                                <option value="Home Networking">Home Networking</option>
+                                                <option value="Email Services">Email Services</option>
+                                                <option value="Internet Connectivity">Internet Connectivity</option>
+                                                <option value="WiFi Connectivity">WiFi Connectivity</option>
+                                                <option value="Data Backup Services">Data Backup Services</option>
+                                                <option value="Program Errors &amp; Crashes">Program Errors &amp; Crashes
+                                                </option>
+                                                <option value="Microsoft Windows">Microsoft Windows</option>
+                                                <option value="Smartphones &amp; Tablets">Smartphones &amp; Tablets</option>
+                                                <option value="Apple Mac OS">Apple Mac OS</option>
+                                                <option value="Printers &amp; Multifunctions">Printers &amp; Multifunctions
+                                                </option>
+                                                <option value="Training &amp; Guidance">Training &amp; Guidance</option>
+                                                <option value="Software Applications">Software Applications</option>
+                                                <option value="Antivirus &amp; Security Software">Antivirus &amp; Security
+                                                    Software</option>
+                                            </select>
+                                        </div>
+                                    </div>
+
+                                    <div class="col-md-4 col-12">
+                                        <div class="form_a">
+                                            <label for=" Services">It Services</label>
+                                            <select class="custom-select select_form" name="it_services" tabindex="0"
+                                                required>
+                                                <option value="Web Development">Web Development</option>
+                                                <option value="App Development">App Development</option>
+                                                <option value="Web Agency">Web Agency</option>
+                                                <option value="Digital Marketing">Digital Marketing</option>
+                                                <option value="UI/UX Design">UI/UX Design</option>
+                                            </select>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-12 col-12">
+                                        <div class="form_a">
+
+                                        </div>
+                                    </div>
+
+                                    <div class="col-md-4 col-12">
+                                        <button type="submit" class="btn btn-primary">Get A Quote</button>
+                                    </div>
+                                </form>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <section class="service-details-wrapper section-padding pb-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-xl-8 col-12 pe-xl-5">
+                    <div class="service-details-contents">
+                        <div class="service-feature-img">
+                            <img src="assets/img/services/Smartphones_tablets_services.jpg" alt="">
+                        </div>
+                        <div class="contents">
+                            <h2>Reliable Support for Smartphones and Tablets</h2>
+                            <p>Our team is equipped with all the necessary knowledge and resources to assist you in the
+                                resolution of smartphone and tablet-related hardware and software issues. Along with
+                                tabletop support, we are also prepared to discuss the problem further, give you the best
+                                possible information, and find the best solution to the issue. The competent technicians
+                                from MyTech can help customers overcome common phone problems. They mainly work with various
+                                smartphone models, major problems, low battery capacity, and their devices ultimately run
+                                slowly. We are experts in our field and will walk you through on how you can solve the issue
+                                before it gets worse as well as will recommend our most efficient and reliable solutions so
+                                that your devices are at their best and you will be able to have a great mobile experience.
+                            </p>
+                            <div class="row mt-5">
+                                <div class="col-lg-4 col-md-6 col-12">
+                                    <div class="single-service-features">
+                                        <div class="icon">
+                                            <i class="fal fa-cogs"></i>
+                                        </div>
+                                        <h5>Remote Assistance
+                                        </h5>
+                                        <p>Troubleshooting and support provided remotely via phone or online tools.
+                                        </p>
+                                    </div>
+                                </div>
+                                <div class="col-lg-4 col-md-6 col-12">
+                                    <div class="single-service-features">
+                                        <div class="icon">
+                                            <i class="fal fa-scanner-touchscreen"></i>
+                                        </div>
+                                        <h5>In-Store Support
+                                        </h5>
+                                        <p>Physical assistance available at designated service centers or retail locations.
+                                        </p>
+                                    </div>
+                                </div>
+                                <div class="col-lg-4 col-md-6 col-12">
+                                    <div class="single-service-features">
+                                        <div class="icon">
+                                            <i class="fal fa-bolt"></i>
+                                        </div>
+                                        <h5>On-Site Support
+                                        </h5>
+                                        <p>Technicians dispatched to your location for hands-on assistance and
+                                            troubleshooting.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <h3>Troubleshoot Phone and Tablet Problems
+                            </h3>
+                            <p>Our competent technical support can confidently troubleshoot easily phone and tablet mishaps.
+                                Our deep domain knowledge about detecting and eliminating several matters such as app bugs
+                                and connectivity obstacles and even the cases of electronic malfunction has earned us a
+                                market leader position. Each of our well-trained technicians uses the best and newest tools
+                                and techniques to make sure your devices are working 100% correctly.
+                            </p>
+
+
+                            <h4>Secure Your Smartphone and Tablet with Our Help</h4>
+                            <p>Our complete technical support services are ready to assist your smartphone and tablet
+                                protection needs. Our main focus is on improving the security of the device via strategies
+                                and tools that are effective. The help can be referring to the setup of security features,
+                                protection from viruses, or data backups but thanks to our professionals, it has become very
+                                simple and easy. Trust us to keep your devices safe and sound, guaranteeing a positive user
+                                experience and a relaxed lifestyle in a world that is increasingly digital.
+                            </p>
+
+
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-4 col-12 mt-5 mt-xl-0">
+                    <div class="service-sidebar-wrapper">
+                        <div class="single-sidebar-widgets">
+                            <div class="wid-title">
+                                <h3>Services Category</h3>
+                            </div>
+                            <div class="services-category-link">
+                                <a href="services-details.php">IT Management</a>
+                                <a href="services-details.php">Web Development</a>
+                                <a href="services-details.php">App Development</a>
+                                <a href="services-details.php">Cyber Services</a>
+                            </div>
+                        </div>
+                        <div class="single-sidebar-widgets doc-sidebar">
+                            <div class="wid-title">
+                                <h3>Documents</h3>
+                            </div>
+                            <div class="download-service-doc">
+                                <a href="#" class="theme-btn off-white"><i class="fal fa-cloud-download"></i> Pricing Plan
+                                    2023</a>
+                                <a href="#" class="theme-btn"><i class="fal fa-file-pdf"></i> Download.pdf</a>
+                                <a href="#" class="theme-btn"><i class="fal fa-file-powerpoint"></i> download.ppt</a>
+                            </div>
+                        </div>
+                        <div class="help-line-card text-white bg-cover"
+                            style="background-image: url('assets/img/cta-bg.jpeg')">
+                            <span>Let's Work Together</span>
+                            <h2>IT Service Agency</h2>
+                            <div class="single-menu-box">
+                                <div class="icon d-flex mt-30 align-center">
+                                    <p><i class="fal fa-phone-volume"></i> +012 (345) 6789</p>
+                                </div>
+                                <a href="contact.php" class="theme-btn mt-20">Contact Us</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    @include('frontend.include.contactForm')
+
+@endsection
