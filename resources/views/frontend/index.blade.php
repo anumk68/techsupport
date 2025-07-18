@@ -558,12 +558,12 @@
             <div class="modal-body">
                 <div class="row">
                     <!-- Left Side: Image - hidden on small screens -->
-                    <div class="col-md-6 d-none d-lg-flex align-items-center justify-content-center">
-                        <img src="public/assets/images/connect.jpg" alt="Repair Service" class="img-fluid modal-image" />
+                    <div class="col-md-5 d-none d-lg-flex align-items-center justify-content-center">
+                        <img src="public/assets/images/connect.jpg" alt="Repair Service" class=" modal-image" />
                     </div>
 
                     <!-- Right Side: Form -->
-                    <div class="col-12 col-lg-6 form_popup">
+                    <div class="col-12 col-lg-7 form_popup">
                         <div class="popup-content">
                             <div class="form_main_popup_model">
                                 <div class="form-container">

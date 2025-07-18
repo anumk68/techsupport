@@ -267,3 +267,19 @@ input.submit-btn.home_submit {
 .modal {
   padding-right: 0 !important;
 }
+
+
+.support-button {
+    padding: 10px 30px;
+    font-size: 16px;
+    font-weight: 600;
+    color: #fff;
+    background: #256AD7;
+    background: #d6fa52;
+    -webkit-transition: all .4s ease-in-out;
+    transition: all .4s ease-in-out;
+    -webkit-box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 50px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 50px;
+    transition: background-color 0.3s ease, color 0.3s ease;
+    border-radius: 5px;
+}
