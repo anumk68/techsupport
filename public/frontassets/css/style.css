@@ -6573,7 +6573,7 @@ header.header-3 .main-menu ul>li>ul ul {
   -webkit-transition: all .3s ease-in-out;
   transition: all .3s ease-in-out;
 }
-
+    
 @media (max-width: 1220px) {
   .single-testimonial-card {
     text-align: center;
