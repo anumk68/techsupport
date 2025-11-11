@@ -17,7 +17,7 @@ use App\Http\Controllers\Front\HomeController;
 use App\Http\Controllers\Front\ServiceRequestForm;
 use App\Http\Controllers\HeaderMenuController;
 use App\Http\Controllers\SubscriberController;
-
+     
 //register routes
 Route::get('/register', [RegisterController::class, 'showRegisterForm'])->name('register');
 Route::post('registers', [RegisterController::class, 'register'])->name('registers');
